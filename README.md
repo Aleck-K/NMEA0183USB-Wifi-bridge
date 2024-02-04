@@ -24,9 +24,9 @@ Connection diagram here:
 https://oshwlab.com/aleck1/new-project
 Please note the following during assembly:
 * it is necessary to supply 5v power to the VBUS pin of the Mini USB Host Shield board, otherwise the AR-10 will not work. Most likely, to do this, you need to cut the track going to the VBUS pin and solder the conductor to the 5v power supply directly to the pin. Read more about the problem and its solution here: https://www.hackster.io/usini/plug-any-usb-device-on-an-esp8266-e0ca8a (Fix Powering Issues)
-* Mini USB Host Shield is placed asymmetrically on a 3x7cm breadboard. I recommend moving it one row to the right. This will provide more space for conductors to WEMOS. The body is also designed with this displacement in mind.
+* Mini USB Host Shield is placed asymmetrically on a 3x7cm breadboard. I recommend moving it one row to the right. This will provide more space for conductors to WEMOS. The case is also designed with this displacement in mind.
 * In order for everything to fit on a 3x7cm breadboard, the Mini USB Host Shield must be placed on the first row of the board
-<img src="img/3.jpg"></td>
+<img src="img/6.jpg"></td>
 * The ESP8266 WeMos D1 Mini microcontroller is placed ABOVE the Mini USB Host board on a high comb starting from the 4th row. Typically this comb comes with WeMos D1
 * Although the device works without a 5-3.3v power converter, it is still better to use it, because the WEMOS power on the 3.3v pin may not be enough for stable operation
 
